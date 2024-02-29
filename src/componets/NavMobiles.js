@@ -1,25 +1,21 @@
 import React, { useState } from "react";
-
-//import navigation data
 import { navigation } from "../data";
-
-//import icons
 import { XIcon } from "@heroicons/react/outline";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
-
-//import components
-import Socials from "./Socials";
-
-//import framer motion
 import { motion } from "framer-motion";
-
-//import link
 import { Link } from "react-scroll";
 
 const NavMobiles = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  //framer motion variants
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   const circleVariants = {
     hidden: {
       scale: 0,
@@ -44,16 +40,13 @@ const NavMobiles = () => {
       },
     },
   };
+
   return (
     <nav>
-      <div
-        onClick={() => setIsOpen(true)}
-        className="cursor-pointer text-white"
-      >
+      <div onClick={toggleMenu} className="cursor-pointer text-white">
         <MenuAlt3Icon className="w-8 h-8" />
       </div>
 
-      {/* circle */}
       <motion.div
         variants={circleVariants}
         initial="hidden"
@@ -61,20 +54,16 @@ const NavMobiles = () => {
         className="w-4 h-4 rounded-full bg-accent fixed top-0 right-0"
       ></motion.div>
 
-      {/* menu */}
       <motion.ul
         variants={uiVariants}
         initial="hidden"
         animate={isOpen ? "visible" : ""}
         className={`${
           isOpen ? "right-0" : "-right-full"
-        } fixed top-0 bottom-0 w-full flex flex-col justify-center
-       items-center transition-all duration-300 overflow-hidden`}
+        } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
       >
-        {/* close icons */}
-
         <div
-          onClick={() => setIsOpen(false)}
+          onClick={closeMenu}
           className="cursor-pointer absolute top-8 right-8"
         >
           <XIcon className="w-8 h-8" />
@@ -87,6 +76,7 @@ const NavMobiles = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                onClick={closeMenu}
                 className="text-xl cursor-pointer capitalize"
               >
                 {item.name}{" "}

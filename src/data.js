@@ -262,7 +262,7 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Kanpur, India',
     description: 'Serving clients worldwide',
   },
 ];

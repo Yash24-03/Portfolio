@@ -21,7 +21,7 @@ const App = () => {
     <Portfolio/>
     <Contact/>
     <Footer/>
-    <div style={{height:'2000px'}}></div>
+    {/* <div style={{height:'2000px'}}></div> */}
   </div>;
 };
 
