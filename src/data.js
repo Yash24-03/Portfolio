@@ -3,13 +3,13 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from 'react-icons/fi';
 
 // companies icons
@@ -85,7 +85,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiDribbble />,
+    icon: <FiLinkedin />,
     href: '',
   },
 ];
@@ -257,7 +257,7 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at yashpathania400@gmail.com',
   },
   {
     icon: <FiMapPin />,

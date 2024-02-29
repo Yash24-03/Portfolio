@@ -9,6 +9,7 @@ import Skills from './componets/Skills';
 import Portfolio from './componets/Portfolio';
 import Projects from './componets/Projects';
 import Contact from './componets/Contact';
+import Footer from './componets/Footer';
 
 const App = () => {
   return <div>
@@ -19,6 +20,7 @@ const App = () => {
     <Skills/>
     <Portfolio/>
     <Contact/>
+    <Footer/>
     <div style={{height:'2000px'}}></div>
   </div>;
 };
