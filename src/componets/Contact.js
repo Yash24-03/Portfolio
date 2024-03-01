@@ -17,9 +17,9 @@ const Contact = () => {
             Contact me
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at
-            laborum totam rerum, adipisci voluptas sit aliquid laboriosam
-            dignissimos id.
+            Feel free to reach out to me for
+            collaboration or project inquiries. Alternatively, you can connect
+            with me on LinkedIn.
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
@@ -36,7 +36,6 @@ const Contact = () => {
                     <h4 className=" font-body text-xl mb-1">{title}</h4>
                     <p className="mb-1">{subtitle}</p>
                     <p className="text-accent font-normal">{description}</p>
-                    
                   </div>
                 </div>
               );
@@ -54,7 +53,7 @@ const Contact = () => {
               placeholder="Your Message"
             ></textarea>
             <button className="btn btn-lg bg-accent hover:bg-accent-hover">
-                Send Message
+              Send Message
             </button>
           </form>
         </div>

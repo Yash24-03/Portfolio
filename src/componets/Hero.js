@@ -19,10 +19,12 @@ const Hero = () => {
               <br /> Web Interfaces.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              velit a turpis rutrum pharetra.
+              A skilled software, merges innovation with determination to push the
+              boundaries of web development.
             </p>
-            <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all rounded-full ">Work with me</button>
+            <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all rounded-full ">
+              Work with me
+            </button>
           </div>
 
           {/* right side */}

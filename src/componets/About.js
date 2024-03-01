@@ -19,11 +19,15 @@ const About = () => {
               <p className="mb-4 text-accent">Freelance Web Developer</p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur eum numquam dicta aut est magnam iure reprehenderit
-                aliquam esse atque? <br />
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
-                itaque?
+                 I am fueled by an unwavering passion for
+                technology and innovation. Hailing from the vibrant city of
+                Kanpur, India, I have embraced the opportunities presented by my
+                BCA education to delve into the realms of software and web
+                development.<br/> With each hackathon victory, I am reminded of the
+                power of persistence and creativity in overcoming challenges. As
+                I chart my course in the tech industry, I am driven by a
+                relentless pursuit of excellence, eager to leave my mark on the
+                ever-evolving landscape of software development.
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">

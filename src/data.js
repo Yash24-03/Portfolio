@@ -35,7 +35,7 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg8 from './assets/img/skills/python.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -72,13 +72,13 @@ export const navigation = [
 
 // social
 export const social = [
-  {
-    icon: <FiYoutube />,
-    href: '',
-  },
+  // {
+  //   icon: <FiYoutube />,
+  //   href: '',
+  // },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/_who_is_yash_/',
   },
   {
     icon: <FiGithub />,
@@ -86,7 +86,7 @@ export const social = [
   },
   {
     icon: <FiLinkedin />,
-    href: '',
+    href: 'https://www.linkedin.com/in/yash-pathania-b66b6180/',
   },
 ];
 
@@ -119,8 +119,9 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'Spice Garden',
     category: 'UI/UX design',
+    href:'https://spicegardenn.netlify.app/',
   },
   {
     id: '2',
