@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-22px">Hey, I'm Yash</p>
             <h1 className="text-4xl leading-44px md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
-              I guilt & Design
+              I build & Design
               <br /> Web Interfaces.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
