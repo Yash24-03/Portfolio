@@ -120,14 +120,15 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'Spice Garden',
-    category: 'UI/UX design',
+    category: 'web development',
     href:'https://spicegardenn.netlify.app/',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Coderspoint',
     category: 'web development',
+    href:'https://coderspoint.in/',
   },
   {
     id: '3',
