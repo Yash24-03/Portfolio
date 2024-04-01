@@ -135,7 +135,7 @@ export const projectsData = [
     image: Project3,
     name: 'Swatch Spot',
     category: 'web development',
-    href:'https://swatch-spot.netlify.app/',
+    href:'https://swatchspot.netlify.app/',
   },
   {
     id: '4',
