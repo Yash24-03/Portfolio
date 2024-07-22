@@ -64,7 +64,7 @@ export default function About() {
               <br></br>
               I&apos;m creating a YouTube channel to teach Django, aiming to make complex concepts accessible and inspire others to pursue Software development. 🎥<a
                 className="underline duration-300 ease-in-out hover:text-secondary-700"
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
+                href="https://www.youtube.com/"
               >
                 YouTube 📸
               </a>

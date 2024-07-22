@@ -1,8 +1,8 @@
-import ibgroup from "/src/assets/images/ib-group-desktop.webp";
+import ibgroup from "/src/assets/images/blog.webp";
 import memento from "/src/assets/images/memento-desktop.webp";
 import acc from "/src/assets/images/acc-square.webp";
 import daddy from "/src/assets/images/godaddy-desktop.webp";
-import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
+import sunnyside from "/src/assets/images/spicegarden.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -18,17 +18,17 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://musical-stroopwafel-1c2327.netlify.app/landing.html"
+            link="https://techtalez.vercel.app/"
             img={ibgroup}
-            alt="IBGroup vietnam website mockup"
-            name="ibgroup vietnam website"
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript • Figma"
+            alt="Tech Tales"
+            name="Tech Tales"
+            type=" Full Stack Development"
+            year="2024"
+            tools="HTML • CSS • JavaScript • Django"
 
           />
         </div>
-        {/* Project #2 */}
+        {/* Project #2
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
             link="https://mementostudio.netlify.app/"
@@ -61,16 +61,16 @@ export default function Works({ forwardedRef }) {
             year="2023"
             tools="HTML • TailwindCSS • JavaScript"
           />
-        </div>
+        </div> */}
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
-            link="https://sunnysidechallenge.netlify.app"
+            link="https://spicegarden.netlify.app"
             img={sunnyside}
-            alt="sunnyside project mockup"
-            name="SUNNYSIDE LANDING PAGE"
+            alt="spice garden"
+            name="SPICE GARDEN LANDING PAGE"
             type="Frontend Development"
-            year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
+            year="2023"
+            tools="React JS , Framer Motion , TailwindCSS"
           />
          
         </div>

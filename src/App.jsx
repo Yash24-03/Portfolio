@@ -56,7 +56,7 @@ const App = () => {
         {/* forwardedRef props to pass into the child component to access the ref, then this will go into the useRef array  */}
         <About />
         <Services />
-        {/* <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} /> */}
+        <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} />
         <Contact />
       </main>
       <Footer />
