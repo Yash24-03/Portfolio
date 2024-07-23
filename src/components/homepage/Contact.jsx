@@ -143,7 +143,7 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="https://bento.me/"
+                href="https://bento.me/yashpathania"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
